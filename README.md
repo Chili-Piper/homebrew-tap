@@ -42,6 +42,8 @@ brew upgrade chili-piper-cli    # Homebrew
 scoop update chili-piper-cli    # Scoop
 ```
 
+Check for updates: `chili-piper-cli check-update`
+
 ## Terms of use
 
 Use of the CLI is subject to the [Terms of Use](TERMS.md).

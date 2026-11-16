@@ -50,3 +50,13 @@ jobs:
           if git diff --cached --quiet; then exit 0; fi
           git commit -m "chili-piper-cli ${{ github.event.release.tag_name || inputs.tag }}"
           git push origin HEAD:main
+
+      # Releases can arrive out of order (an older tag published after a newer one).
+      # GitHub marks the last published one as Latest, and `chili-piper-cli check-update`
+      # reads /releases/latest. Keep Latest on the version the formula points to.
+      - name: Mark newest release as Latest
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          version=$(sed -n 's/^  version "\(.*\)"$/\1/p' Formula/chili-piper-cli.rb)
+          gh release edit "v$version" --repo "$GITHUB_REPOSITORY" --latest
