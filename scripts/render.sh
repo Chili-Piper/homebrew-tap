@@ -54,7 +54,10 @@ cat > "$root/bucket/chili-piper-cli.json" <<EOF
   "version": "$version",
   "description": "Command-line client for the Chili Piper Edge API",
   "homepage": "$repo",
-  "license": "Proprietary",
+  "license": {
+    "identifier": "Proprietary",
+    "url": "$repo/blob/main/TERMS.md"
+  },
   "architecture": {
     "64bit": {
       "url": "$base/chili-piper-cli.windows-x86_64.exe#/chili-piper-cli.exe",
