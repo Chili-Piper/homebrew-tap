@@ -25,7 +25,7 @@ Or download the binary for your platform from [Releases](https://github.com/Chil
 Create an API key in Chili Piper: **Admin Center > API Keys**. Give it only the scopes you need.
 
 ```sh
-export CHILI_PIPER_API_HOST=https://fire.chilipiper.io/api/fire-edge
+export CHILI_PIPER_API_HOST=https://fire.chilipiper.com/api/fire-edge
 export CHILI_PIPER_API_KEY=<your-api-key>
 chili-piper-cli health ping
 ```
