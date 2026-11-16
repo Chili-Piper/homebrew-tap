@@ -1,6 +1,6 @@
 # Chili Piper CLI — Terms of Use
 
-_Draft. Not yet reviewed by Legal._
+Last updated: 2026-11-16
 
 These terms apply to the `chili-piper-cli` software ("the CLI") that you download from this repository.
 By downloading, installing or using the CLI, you agree to these terms.
