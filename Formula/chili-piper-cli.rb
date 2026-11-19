@@ -2,20 +2,20 @@
 class ChiliPiperCli < Formula
   desc "Command-line client for the Chili Piper Edge API"
   homepage "https://github.com/Chili-Piper/homebrew-tap"
-  version "1.1073.0"
+  version "1.1074.0"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://github.com/Chili-Piper/homebrew-tap/releases/download/v1.1073.0/chili-piper-cli.macos-arm64"
-      sha256 "6cb18f5e364cd1f6f70361537a685eab69903b255737bba279ac827c0368e545"
+      url "https://github.com/Chili-Piper/homebrew-tap/releases/download/v1.1074.0/chili-piper-cli.macos-arm64"
+      sha256 "e1db29592c394b340d96b6610fa70993eaaa5b70e1f4e5e91c630b23446b30c2"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/Chili-Piper/homebrew-tap/releases/download/v1.1073.0/chili-piper-cli.linux-x86_64"
-      sha256 "8a02cffc9a54a3becca23ffdc65c5fb634b3cc71475341d864badf29822ed83c"
+      url "https://github.com/Chili-Piper/homebrew-tap/releases/download/v1.1074.0/chili-piper-cli.linux-x86_64"
+      sha256 "bf7f682ad64e605d33937a40de4cd2179288977a589053f9d88813b5f31f0585"
     end
   end
 
