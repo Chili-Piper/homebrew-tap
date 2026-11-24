@@ -1,5 +1,5 @@
 {
-  "version": "1.1166.1",
+  "version": "1.1166.2",
   "description": "Command-line client for the Chili Piper Edge API",
   "homepage": "https://github.com/Chili-Piper/homebrew-tap",
   "license": {
@@ -8,8 +8,8 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://github.com/Chili-Piper/homebrew-tap/releases/download/v1.1166.1/chili-piper-cli.windows-x86_64.exe#/chili-piper-cli.exe",
-      "hash": "862c9028b53df50495c7c768df356cedfd236ade50fbc240d6de2316e038c944"
+      "url": "https://github.com/Chili-Piper/homebrew-tap/releases/download/v1.1166.2/chili-piper-cli.windows-x86_64.exe#/chili-piper-cli.exe",
+      "hash": "093279668e019699d1da2e3a3d35fc5e64e945f9497b032a0cfd102e97bbbbea"
     }
   },
   "bin": "chili-piper-cli.exe",
